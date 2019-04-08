@@ -1,6 +1,6 @@
 describe "Hello World" do
   it 'has a file hello_world.rb' do
-    expect(File.exists?("hello_world.rb")).to be_truthy, 
+    expect(File.exists?("hello_world.rb")).to be_truthy,
   end
 
   it 'puts "Hello World!"' do
